@@ -48,8 +48,8 @@ export default class App extends React.Component {
 
 | Prop              | Type       | Default | Note                                                                                                       |
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
-| `url`       | `string`   |  ``  |
-| `type`      | `string`   | `` |
+| `url`       | `string`   |   |
+| `type`      | `string`   |  |
 
 ## 📜 License
 This library is provided under the Apache License.
