@@ -20,8 +20,6 @@
 
 ## 💻 Usage
 
-App.js
-
 ```javascript
 import * as React from 'react';
 import { View } from 'react-native';
@@ -32,15 +30,12 @@ let url = 'https://gfycat.com/clumsyfloweryamericancrayfish-happy-pcmasterrace-s
 export default class App extends React.Component {
   componentDidMount() {
     GfResolve(url, 3)
-      .then(r => console.log('R:', r))
+      .then(r => console.log('Result:', r))
       .catch(error => {
-        console.error('E:', error);
+        console.error('Error:', error);
       });
   }
-
-  render() {
-    return null;
-  }
+  render() { return null; }
 }
 ```
 
@@ -48,8 +43,15 @@ export default class App extends React.Component {
 
 | Prop              | Type       | Default | Note                                                                                                       |
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
-| `url`       | `string`   |  ``  |
-| `type`      | `string`   | `` |
+| `url`       | `string`   |    | `Url of the file to be exported.`
+| `type`      | `number`   | `3` | `File format to export.`
+
+#### Type
+
+0) `-small.gif`
+1) `-max-1mb.gif`
+2) `-size_restricted.gif`
+3) `-mobile.mp4`
 
 ## 📜 License
 This library is provided under the Apache License.

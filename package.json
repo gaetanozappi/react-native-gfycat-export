@@ -1,7 +1,7 @@
 {
   "name": "react-native-gfycat-export",
   "version": "0.0.1",
-  "description": "React Native library which allows you to export the mp4 video file.",
+  "description": "React Native library which allows you to export the gif and mp4 file.",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaetanozappi/react-native-gfycat-export.git"
@@ -24,6 +24,7 @@
     "ios",
     "video",
     "mp4",
+    "gif",
     "export"
   ],
   "author": "Gaetano Zappi",
